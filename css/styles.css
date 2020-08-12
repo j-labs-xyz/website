@@ -7473,3 +7473,15 @@ form .row:first-child .floating-label-form-group {
   letter-spacing: 2px;
   font-weight: 500
 }
+
+.fa-github:before {
+  content: "\f09b";
+  font-family: FontAwesome;
+  display: inline-block;
+}
+
+.fa-linkedin:before {
+  content: "\f0e1";
+  font-family: FontAwesome;
+  display: inline-block;
+}
