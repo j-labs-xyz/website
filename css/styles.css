@@ -4710,7 +4710,7 @@ button.bg-primary:focus {
   background-color: black !important; }
 
 .bg-secondary {
-  background-color: #47ad0b !important; }
+  background-color: #000000 !important; }
 
 a.bg-secondary:hover, a.bg-secondary:focus,
 button.bg-secondary:hover,
@@ -7035,7 +7035,7 @@ a.text-primary:hover, a.text-primary:focus {
   color: black !important; }
 
 .text-secondary {
-  color: #47ad0b !important; }
+  color: #000000 !important; }
 
 a.text-secondary:hover, a.text-secondary:focus {
   color: #296506 !important; }
@@ -7241,11 +7241,11 @@ h3 {
     #mainNav .navbar-nav li.nav-item a.nav-link {
       color: #fff; }
       #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-        color: #121211; }
+        text-decoration-line: underline; }
       #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
         color: #fff; }
       #mainNav .navbar-nav li.nav-item a.nav-link.active {
-        color: #121211; }
+        text-decoration-line: underline; }
   #mainNav .navbar-toggler {
     font-size: 80%;
     padding: 0.8rem; }
@@ -7261,8 +7261,7 @@ h3 {
     #mainNav .navbar-nav {
       margin-top: 0; }
     #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
-      color: #fff;
-      background: #121211; }
+      text-decoration-line: underline; }
       #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
         color: #fff;
         background: #121211; }
@@ -7273,7 +7272,6 @@ h3 {
       font-size: 1.5em; } }
 
 .masthead {
-  padding-top: calc(6rem + 74px);
   padding-bottom: 6rem; }
   .masthead .masthead-heading {
     font-size: 2.75rem;
@@ -7285,7 +7283,6 @@ h3 {
 
 @media (min-width: 992px) {
   .masthead {
-    padding-top: calc(6rem + 104px);
     padding-bottom: 6rem; }
     .masthead .masthead-heading {
       font-size: 4rem;
