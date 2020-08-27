@@ -7415,8 +7415,8 @@ form .row:first-child .floating-label-form-group {
 .member {
   text-align: center;
   margin: 0 auto;
-  width: 128px;
-  height: 128px;
+  width: 100pt;
+  height: 100pt;
   position: relative
 }
 
