@@ -7304,10 +7304,7 @@ h3 {
     transition: all 0.2s ease-in-out;
     opacity: 0;
     background-color: rgba(18, 18, 17, 0.9); }
-    .portfolio .portfolio-item .portfolio-item-caption:hover {
-      opacity: 1; }
-    .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
-      font-size: 1.5rem; }
+    
 
 .portfolio-modal .portfolio-modal-title {
   font-size: 2.25rem;
@@ -7458,7 +7455,8 @@ form .row:first-child .floating-label-form-group {
 }
 
 .member img {
-  border-radius: 50%
+  border-radius: 50%;
+  width: 100pt;
 }
 
 .name {
