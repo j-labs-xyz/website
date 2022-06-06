@@ -4,7 +4,12 @@
     "details": [
       {
         "appID": "7F4FDBR4Y2.au.com.nine25.app",
-        "paths": [ "/deep-linking/test.html" ]
+        "paths": [ "/deep-linking/test.html" ],
+        "components": [
+          {
+            "/": "/deep-linking/test.html"
+          }
+        ]
       }
     ]
   }
