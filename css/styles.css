@@ -7460,7 +7460,7 @@ form .row:first-child .floating-label-form-group {
   text-align: center;
   margin: 0 3px;
   position: relative;
-  top: 52px;
+  top: 27px;
   width: 25px;
   height: 25px;
   display: inline-block;
@@ -7540,6 +7540,12 @@ form .row:first-child .floating-label-form-group {
 
 .fa-linkedin:before {
   content: "\f0e1";
+  font-family: FontAwesome;
+  display: inline-block;
+}
+
+.fa-link-horizontal:before {
+  content: "\e1cb";
   font-family: FontAwesome;
   display: inline-block;
 }
