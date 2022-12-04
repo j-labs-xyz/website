@@ -7427,6 +7427,54 @@ form .row:first-child .floating-label-form-group {
 
 /* People */
 
+.j_work {
+  text-align: center;
+  margin: 0 auto;
+  width: 200pt;
+  height: 58pt;
+  position: relative
+}
+
+.j_work:hover .mask {
+  opacity: 1
+}
+
+.j_work .mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(29, 32, 34, .7);
+  opacity: 0;
+  -webkit-transition: all .4s;
+  -moz-transition: all .4s;
+  -ms-transition: all .4s;
+  -o-transition: all .4s;
+  transition: all .4s;
+  border-radius: 10px;
+}
+
+.j_work .mask a {
+  font-size: 18px;
+  text-align: center;
+  margin: 0 3px;
+  position: relative;
+  top: 52px;
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  background: #fff;
+  border-radius: 50%;
+  color: #38404a
+}
+
+.j_work img {
+  border-radius: 10px;
+  width: 200pt;
+  height: 58pt;
+}
+
 .member {
   text-align: center;
   margin: 0 auto;
