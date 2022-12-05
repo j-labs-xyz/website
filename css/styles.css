@@ -10944,7 +10944,7 @@ form .row:first-child .floating-label-form-group {
 .j-testimonial-wrapper {
   max-width: 1200px;
   margin: auto;
-  padding: 0 20px;
+  padding: 20px 20px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
