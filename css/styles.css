@@ -10960,6 +10960,10 @@ form .row:first-child .floating-label-form-group {
   color: #6b6b6b;
 }
 
+.j-testimonial-box a {
+  color: #6b6b6b;
+}
+
 .j-testimonial-wrapper .j-testimonial-box i.quote {
   font-size: 20px;
 }
