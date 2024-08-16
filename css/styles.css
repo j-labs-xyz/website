@@ -10762,7 +10762,7 @@ form .row:first-child .floating-label-form-group {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #e00ce0;
+  background-color: #000000;
   color: #fff;
 }
 
@@ -10945,15 +10945,14 @@ form .row:first-child .floating-label-form-group {
   max-width: 1200px;
   margin: auto;
   padding: 20px 20px;
-  display: flex;
+  display: ruby;
   flex-wrap: wrap;
-  align-items: center;
   justify-content: space-between;
 }
 
 .j-testimonial-wrapper .j-testimonial-box {
   background: #fff;
-  width: calc(33% - 10px);
+  width: calc(47% - 10px);
   padding: 25px;
   border-radius: 3px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
