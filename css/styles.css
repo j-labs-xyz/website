@@ -10954,6 +10954,7 @@ form .row:first-child .floating-label-form-group {
   background: #fff;
   width: calc(47% - 10px);
   padding: 25px;
+  margin: 0 10px;
   border-radius: 3px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
   color: #6b6b6b;
@@ -11010,7 +11011,7 @@ form .row:first-child .floating-label-form-group {
 @media (max-width: 1045px) {
   .j-testimonial-wrapper .j-testimonial-box {
     width: calc(50% - 10px);
-    margin: 10px 0;
+    margin: 5px;
   }
 }
 
